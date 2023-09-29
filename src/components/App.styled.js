@@ -34,6 +34,6 @@ export const Link = styled(NavLink)`
 
   &.active {
     color: white;
-    background-color: orangered;
+    background-color: rgba(52, 112, 255, 1);
   }
 `;

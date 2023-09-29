@@ -1,15 +1,27 @@
 import React from "react";
+import image from "../assets/bmw-offer.png";
 
 export const Home = () => {
   return (
-    <div>
-      Home
-      <img
-        src="https://storage.googleapis.com/pod_public/1300/175221.jpg"
-        alt=""
-        width="300"
-        height="200"
-      />
-    </div>
+    <>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          marginTop: "50px",
+        }}
+      >
+        <img src={image} alt="" />
+      </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          marginTop: "50px",
+        }}
+      >
+        <h1>Welcome to car rent service</h1>
+      </div>
+    </>
   );
 };
